@@ -1,4 +1,4 @@
-import sys, pygame
+import pygame
 red, green, blue = 0,0,0
 
 def background_changer():
