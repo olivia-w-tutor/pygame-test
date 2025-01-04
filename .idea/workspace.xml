@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1c0c246-54c8-4602-ab1a-b9262736d29d" name="Changes" comment="Wrote working version of background_changer.py">
+    <list default="true" id="d1c0c246-54c8-4602-ab1a-b9262736d29d" name="Changes" comment="Moved import sys to main.py&#10;Added quit and exit at the end of main">
+      <change afterPath="$PROJECT_DIR$/quit_button.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background_changer.py" beforeDir="false" afterPath="$PROJECT_DIR$/background_changer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -66,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734476622668</updated>
       <workItem from="1734476623832" duration="6889000" />
-      <workItem from="1735695710043" duration="8269000" />
+      <workItem from="1735695710043" duration="16501000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -92,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735794521224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved import sys to main.py&#10;Added quit and exit at the end of main">
+      <option name="closed" value="true" />
+      <created>1735799873126</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735799873126</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,10 +110,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Wrote working version of background_changer.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote working version of background_changer.py" />
+    <MESSAGE value="Moved import sys to main.py&#10;Added quit and exit at the end of main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved import sys to main.py&#10;Added quit and exit at the end of main" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PygameTest$background_changer.coverage" NAME="background_changer Coverage Results" MODIFIED="1735699627491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PygameTest$main.coverage" NAME="main Coverage Results" MODIFIED="1735699922915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PygameTest$background_changer.coverage" NAME="background_changer Coverage Results" MODIFIED="1735800076075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PygameTest$main.coverage" NAME="main Coverage Results" MODIFIED="1735964000602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

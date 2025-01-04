@@ -16,6 +16,8 @@ def background_changer():
     color_rotation = {"red":"green", "green":"blue", "blue":"red"}
     current_color = "red"
 
+    running = True
+
     def tweak_background(amount):
         global red, green, blue
         if current_color == "red":
@@ -33,7 +35,7 @@ def background_changer():
         screen.fill((red, green, blue))
         pygame.display.update()
 
-    while True:
+    while running:
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
